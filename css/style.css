@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .h1 {
+  font-family: "Indie Flower", cursive;
+  color: #FF7F50;
+  font-size: 50px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.dropdown-content:hover {
+  display: block;
+}
+
+.list {
+  display: flex;
+  font-family: "IBM Plex Mono", monospace;
+  color: #666;
+  list-style: none;
+}
+.list select {
+  border: none;
+  font-family: "IBM Plex Mono", monospace;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #FF7F50;
+}
+
+li:hover {
+  color: #FF7F50;
+}
+
+.platos-menu {
+  font-family: "IBM Plex Mono", monospace;
+  list-style: none;
+}
+
+.main-menu {
+  display: flex;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-link {
+  position: absolute;
+  background-color: white;
+  border-radius: 45%;
+  border: none;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button-link:hover {
+  background-color: #FF7F50;
+}
+
+.image-menu {
+  width: 96%;
+  height: auto;
+}
+
+.image-menu img {
+  width: 100%;
+  border-radius: 30%;
+}
+
+/*# sourceMappingURL=style.css.map */
