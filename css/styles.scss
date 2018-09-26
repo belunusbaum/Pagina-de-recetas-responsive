@@ -1,3 +1,8 @@
+$naranja: #fa7855 ;
+body {
+    margin: 0;
+}
+/* */
 .header{
     display: flex;
     flex-direction: column;
@@ -102,3 +107,45 @@ li:hover{
     border-radius: 30%;
 
 }
+/* */
+
+/* CAROUSEL */
+.carousel {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .img { 
+        overflow: hidden;
+        position: relative;
+        align-items: center;
+        margin: 1px;
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+}
+.img:hover {
+    .slider {
+        transform:translateY(-100%);
+        position: absolute;
+        width: 100%;
+    }
+}
+.slider {
+    position:absolute;
+    top: 100%;
+    width: 100%;
+    transition: transform 250ms;
+    vertical-align: bottom;    
+    span {
+        display:block;
+        background-color: rgba(250, 120, 85, 0.5);
+        color: white;
+        font-family: "IBM Plex Mono", monospace;
+        padding: 5%;
+        font-size: 10px;
+    }
+}
+/* CAROUSEL */
