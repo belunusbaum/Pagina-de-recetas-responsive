@@ -148,4 +148,60 @@ li:hover{
         font-size: 10px;
     }
 }
-/* CAROUSEL */
+/* FIN CAROUSEL */
+/* CONTENIDO RECETA */
+.container-recipe {
+    font-family: "IBM Plex Mono", monospace;
+    display: flex;
+    justify-content: center;
+    color: gray ;
+}
+article {
+    width: 45%;
+    font-size: 15px;
+    .recipe-header {
+        h2 {
+            padding: 0 2%;
+            color: black;
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .citation {
+        border-left: $naranja solid 1px;
+        margin: 5% 0;
+        padding: 0 4%;
+        p {
+            color: black;
+        }
+        span {
+            text-transform: uppercase;
+        }
+    }
+}
+.icons {
+    i {
+    padding: 2px;
+    span {
+        font-family: "IBM Plex Mono", monospace;
+        }
+    }
+}
+.recipe-ing {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            padding: 1%;
+            text-indent: -.7em;
+        }
+        li::before {
+            content: "• ";
+            color: $naranja;
+        }
+    }     
+}
+/*FIN CONTENIDO RECETA*/
