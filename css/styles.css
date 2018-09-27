@@ -158,6 +158,12 @@ li:hover {
   align-items: center;
   margin: 5px;
 }
+.carousel .img:first-of-type {
+  margin-left: 0;
+}
+.carousel .img:last-of-type {
+  margin-right: 0;
+}
 .carousel .img img {
   height: 100%;
   width: 100%;
