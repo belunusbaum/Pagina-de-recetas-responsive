@@ -1,12 +1,20 @@
 $font: 'IBM Plex Mono', monospace;
 $rosa: #fde2da;
 
+.recetas {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
 .box {
     display: flex;
     width: 70%;
     font-family: $font;
     font-size: 12px;
     border-top: 1px solid grey;
+    margin: auto;
+
 
     img {
         width: 230px;
