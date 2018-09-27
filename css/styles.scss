@@ -1,12 +1,12 @@
-$color-base: #aba6a6;
 $font: 'IBM Plex Mono', monospace;
+$rosa: #fde2da;
 
 .box {
     display: flex;
-    width: 60%;
+    width: 70%;
     font-family: $font;
     font-size: 12px;
-    border-top: 1px solid $color-base;
+    border-top: 1px solid grey;
 
     img {
         width: 230px;
@@ -18,7 +18,7 @@ $font: 'IBM Plex Mono', monospace;
     .description {
         width:45%;
         padding: 20px;
-        color: $color-base;
+        color: grey;
 
         h3 {
             color: #000000;
@@ -28,7 +28,7 @@ $font: 'IBM Plex Mono', monospace;
         a { 
             text-decoration:none;
             color: #000000;
-            background-color: #f7cdd5;
+            background-color: $rosa;
             border-radius: 10px;
             display: inline-block;
             padding: 5px 30px;
@@ -43,7 +43,7 @@ $font: 'IBM Plex Mono', monospace;
 
 footer {
     padding: 10px;
-    color: $color-base;
+    color: grey;
     font-family: $font;
     font-size: 10px;
     display: flex;

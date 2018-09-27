@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .box {
   display: flex;
-  width: 60%;
+  width: 70%;
   font-family: "IBM Plex Mono", monospace;
   font-size: 12px;
-  border-top: 1px solid #aba6a6;
+  border-top: 1px solid grey;
 }
 .box img {
   width: 230px;
@@ -15,7 +15,7 @@
 .box .description {
   width: 45%;
   padding: 20px;
-  color: #aba6a6;
+  color: grey;
 }
 .box .description h3 {
   color: #000000;
@@ -24,7 +24,7 @@
 .box .description a {
   text-decoration: none;
   color: #000000;
-  background-color: #f7cdd5;
+  background-color: #fde2da;
   border-radius: 10px;
   display: inline-block;
   padding: 5px 30px;
@@ -36,7 +36,7 @@
 
 footer {
   padding: 10px;
-  color: #aba6a6;
+  color: grey;
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   display: flex;
