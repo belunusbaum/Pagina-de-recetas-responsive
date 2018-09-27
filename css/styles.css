@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .box {
   display: flex;
-  width: 60%;
+  width: 70%;
   font-family: "IBM Plex Mono", monospace;
   font-size: 12px;
-  border-top: 1px solid #aba6a6;
+  border-top: 1px solid grey;
 }
 .box img {
   width: 230px;
@@ -15,7 +15,7 @@
 .box .description {
   width: 45%;
   padding: 20px;
-  color: #aba6a6;
+  color: grey;
 }
 .box .description h3 {
   color: #000000;
@@ -24,7 +24,7 @@
 .box .description a {
   text-decoration: none;
   color: #000000;
-  background-color: #f7cdd5;
+  background-color: #fde2da;
   border-radius: 10px;
   display: inline-block;
   padding: 5px 30px;
@@ -36,7 +36,7 @@
 
 footer {
   padding: 10px;
-  color: #aba6a6;
+  color: grey;
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   display: flex;
@@ -51,7 +51,8 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .header .h1 {
   font-family: "Indie Flower", cursive;
@@ -60,27 +61,31 @@ body {
 }
 
 .dropdown {
-  display: flex;
-  flex-direction: column;
-}
-
-.dropdown-content {
-  display: flex;
-  flex-direction: column;
   display: none;
+  list-style: none;
+  background-color: #F2F3F4;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
 }
 
-.dropdown-content:hover {
+ul .platos:hover .dropdown {
   display: block;
 }
 
-.list {
+.nav {
   display: flex;
+  justify-content: center;
+}
+.nav .list {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
   font-family: "IBM Plex Mono", monospace;
   color: #666;
   list-style: none;
 }
-.list select {
+.nav .list select {
   border: none;
   font-family: "IBM Plex Mono", monospace;
   color: #666;
@@ -120,12 +125,9 @@ li:hover {
 .button-link {
   position: absolute;
   background-color: white;
-  border-radius: 45%;
+  border-radius: 25px;
   border: none;
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 8px 60px;
 }
 
 .button-link:hover {
@@ -157,7 +159,7 @@ li:hover {
   margin: 1px;
 }
 .carousel .img img {
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
